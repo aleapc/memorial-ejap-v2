@@ -303,7 +303,7 @@ section {
 }
 
 .card-image {
-    height: 200px;
+    height: 280px;
     overflow: hidden;
 }
 
@@ -311,6 +311,19 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
+}
+
+/* Imagens de pessoas - mostrar rosto */
+.card-image.person img {
+    object-position: top center;
+}
+
+/* Imagens de documentos/cartas - centralizar */
+.card-image.document img {
+    object-fit: contain;
+    background: #f5f5f5;
+    padding: 10px;
 }
 
 .card-content {
