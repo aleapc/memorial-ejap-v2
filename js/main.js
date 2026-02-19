@@ -1,4 +1,4 @@
-// Site Memorial - Dr. Estevan José de Almeida Prado
+// Site Memorial - Dr. Estevam José de Almeida Prado
 
 // Lightbox functionality
 function openLightbox(element) {
@@ -104,4 +104,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-console.log('Memorial Dr. Estevan José de Almeida Prado - Carregado com sucesso');
+console.log('Memorial Dr. Estevam José de Almeida Prado - Carregado com sucesso');
