@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Estevan José de Almeida Prado - Memorial</title>
+    <title>Dr. Estevan Jose de Almeida Prado - Memorial</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
 </head>
@@ -15,6 +15,7 @@
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#familia-origem">Origens</a></li>
                 <li><a href="#pioneirismo">Pioneirismo</a></li>
                 <li><a href="#brehmer">V. Brehmer</a></li>
                 <li><a href="#homeopatia">Homeopatia</a></li>
@@ -32,8 +33,8 @@
             <p class="dates">Rio Claro, SP</p>
             <p>
                 Medico dedicado, pesquisador pioneiro na area de cancerologia e homeopatia,
-                veterano da Revolucao Constitucionalista de 1932 e Diretor-Presidente do
-                Instituto de Pesquisas Cientificas Sao Paulo S/A.
+                veterano da Revolucao Constitucionalista de 1932, criador da Vacina BHP
+                e Diretor-Presidente do Instituto de Pesquisas Cientificas Sao Paulo S/A.
             </p>
             <span class="badge">Veterano de 32</span>
         </div>
@@ -51,22 +52,61 @@
                 <h3>Uma Vida de Dedicacao</h3>
                 <p>
                     Dr. Estevan Jose de Almeida Prado nasceu em Rio Claro, interior de Sao Paulo,
-                    em uma familia tradicional paulista com raizes profundas na historia do estado.
-                    Seu pai, Dr. Almeida Prado, foi figura proeminente no Senado de Sao Paulo
-                    entre 1891 e 1930.
+                    em uma das mais tradicionais familias paulistas. Seu pai, Dr. Jose Vasconcellos
+                    de Almeida Prado Junior, nascido em Itu em 9 de maio de 1877, foi deputado
+                    estadual de 1907 a 1924 e senador estadual a partir de 1926, eleito com 47.570 votos.
                 </p>
                 <p>
                     Formou-se em medicina e dedicou-se especialmente a pesquisa cientifica,
                     tornando-se pioneiro nos estudos sobre cancer e homeopatia no Brasil.
-                    Seu trabalho foi reconhecido internacionalmente, levando-o a realizar
-                    estudos na Alemanha com o renomado Dr. V. Brehmer em Bad Kreuznach.
+                    Em maio de 1949, viajou a Bad Kreuznach, Alemanha, para estudar com o
+                    renomado Dr. V. Brehmer, aprofundando pesquisas sobre o cancer como molestia parasitaria.
                 </p>
                 <p>
-                    Em 1963, fundou e presidiu o Instituto de Pesquisas Cientificas Sao Paulo S/A,
-                    consolidando seu compromisso com o avanco da ciencia medica brasileira.
-                    Durante a Revolucao Constitucionalista de 1932, serviu sua patria com
-                    dedicacao, sendo condecorado como "Veterano de 32" em 1983.
+                    Junto com Brehmer e Hirachi, desenvolveu a Vacina BHP contra o cancer,
+                    que ele comparava ao BCG para tuberculose. Em 1963, fundou e presidiu o
+                    Instituto de Pesquisas Cientificas Sao Paulo S/A.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Origens Familiares -->
+    <section id="familia-origem">
+        <h2 class="section-title">Origens Familiares</h2>
+
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Tradicao Republicana Paulista</h3>
+                <p>
+                    A familia Almeida Prado tem raizes profundas na historia de Sao Paulo.
+                    O pai de Dr. Estevan, Dr. Jose Vasconcellos de Almeida Prado Junior,
+                    dedicou-se ainda na adolescencia ao servico da propaganda da Republica.
+                </p>
+                <p>
+                    Foi na residencia de seu ilustre avo, Jose Vasconcellos de Almeida Prado,
+                    que se reuniu em Itu a famosa Convencao Republicana, marco historico
+                    do movimento republicano brasileiro.
+                </p>
+                <p>
+                    Formado em Direito pela Faculdade de Sao Paulo em 1900, o pai de Dr. Estevan
+                    estabeleceu-se em Rio Claro, onde se dedicou a agricultura e advocacia.
+                    Foi deputado estadual por varios mandatos e senador a partir de 1926.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/livreto_senado_pags.jpg" alt="Senado de Sao Paulo">
+            </div>
+        </div>
+
+        <div class="gallery-grid" style="margin-top: 3rem;">
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/livreto_senado_capa.jpg" alt="Senado de Sao Paulo">
+                <div class="gallery-caption">Senado de Sao Paulo - 1891-1930</div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/91_rioclaro.jpg" alt="Rio Claro">
+                <div class="gallery-caption">Rio Claro, cidade natal</div>
             </div>
         </div>
     </section>
@@ -80,8 +120,8 @@
                 <div class="timeline-content">
                     <span class="timeline-year">Inicio</span>
                     <h3>Nascimento em Rio Claro</h3>
-                    <p>Nasceu em Rio Claro, Sao Paulo, filho de familia tradicional paulista.
-                    Seu pai foi senador estadual entre 1891 e 1930.</p>
+                    <p>Nasceu em Rio Claro, Sao Paulo, filho do Dr. Jose Vasconcellos de Almeida Prado Junior,
+                    senador estadual, e de tradicional familia republicana paulista.</p>
                 </div>
             </div>
 
@@ -105,10 +145,20 @@
 
             <div class="timeline-item">
                 <div class="timeline-content">
-                    <span class="timeline-year">Alemanha</span>
-                    <h3>Estudos com Dr. V. Brehmer</h3>
-                    <p>Realizou estudos em Bad Kreuznach, Alemanha, com o Dr. V. Brehmer,
-                    aprofundando pesquisas sobre cancer como molestia parasitaria.</p>
+                    <span class="timeline-year">Maio 1949</span>
+                    <h3>Estagio em Bad Kreuznach</h3>
+                    <p>"Em Maio de 1949 chegamos a Bad Kreuznach, Alemanha, para la fazermos
+                    um estagio para nos inteirar de tudo quanto nos fosse possivel sobre o
+                    trabalho de von Brehmer."</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-year">Decada 1950</span>
+                    <h3>Vacina BHP</h3>
+                    <p>Desenvolveu junto com Brehmer e Hirachi a Vacina BHP contra o cancer,
+                    que representava para o cancer o que o BCG representa para a tuberculose.</p>
                 </div>
             </div>
 
@@ -116,8 +166,8 @@
                 <div class="timeline-content">
                     <span class="timeline-year">1963</span>
                     <h3>Instituto de Pesquisas Cientificas</h3>
-                    <p>Fundou e assumiu a presidencia do Instituto de Pesquisas Cientificas
-                    Sao Paulo S/A, com capital de 600.000 cruzeiros.</p>
+                    <p>Em 21 de abril de 1963, fundou e assumiu a presidencia do Instituto de
+                    Pesquisas Cientificas Sao Paulo S/A, com capital de 600.000 cruzeiros.</p>
                 </div>
             </div>
 
@@ -125,8 +175,8 @@
                 <div class="timeline-content">
                     <span class="timeline-year">1983</span>
                     <h3>Medalha da Constituicao</h3>
-                    <p>Recebeu a Medalha da Constituicao da Assembleia Legislativa de Sao Paulo,
-                    em 09 de julho de 1983, como "Veterano de 32".</p>
+                    <p>Em 09 de julho de 1983, recebeu a Medalha da Constituicao da Assembleia
+                    Legislativa de Sao Paulo como "Veterano de 32".</p>
                 </div>
             </div>
         </div>
@@ -146,16 +196,62 @@
     <section id="pioneirismo">
         <h2 class="section-title">Pioneirismo Cientifico</h2>
 
-        <div class="cards-grid">
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>A Vacina BHP</h3>
+                <p>
+                    Um dos maiores legados cientificos do Dr. Estevan foi o desenvolvimento,
+                    junto com o Dr. V. Brehmer (Alemanha) e Hirachi (Japao), da Vacina BHP
+                    contra o cancer.
+                </p>
+                <p>
+                    Em suas proprias palavras: "Assim estamos convencidos que essa Vacina que
+                    pomposamente batizamos de 'BHP' - Brehmer, Hirachi, Prado - representa em
+                    relacao ao Cancer o que o BCG corresponde para a Tuberculose."
+                </p>
+                <p>
+                    Esta pesquisa pioneira enfrentou resistencia da ciencia oficial da epoca,
+                    mas Dr. Estevan manteve sua conviccao: "A desgraca de V. Brehmer e em parte
+                    a nossa tambem foi de se falar sobre um assunto muito anos antes do tempo
+                    necessario para a evolucao intelectual dos nossos mestres em Cancerologia."
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/quadro_morfologico.jpg" alt="Pesquisa Cientifica">
+            </div>
+        </div>
+
+        <div class="cards-grid" style="margin-top: 3rem;">
             <div class="card">
                 <div class="card-image">
                     <img src="assets/images/22_aparelho.jpg" alt="Equipamento de Pesquisa">
                 </div>
                 <div class="card-content">
-                    <h3>Pesquisa Laboratorial</h3>
-                    <p>Desenvolveu pesquisas inovadoras em seu laboratorio, utilizando
-                    equipamentos de ponta para a epoca e contribuindo para o avanco
-                    da medicina no Brasil.</p>
+                    <h3>Laboratorio de Pesquisa</h3>
+                    <p>Utilizou equipamentos de ponta para desenvolver suas pesquisas
+                    sobre o cancer como molestia parasitaria.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/45_laborat_inaug.jpg" alt="Inauguracao do Laboratorio">
+                </div>
+                <div class="card-content">
+                    <h3>Inauguracao do Laboratorio</h3>
+                    <p>Momento historico da inauguracao do laboratorio de pesquisas
+                    que seria fundamental para seus estudos cientificos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/96_portalab.jpg" alt="Porta do Laboratorio">
+                </div>
+                <div class="card-content">
+                    <h3>Instituto de Pesquisas</h3>
+                    <p>Em 1963, fundou o Instituto de Pesquisas Cientificas SP S/A,
+                    consolidando sua dedicacao a ciencia.</p>
                 </div>
             </div>
 
@@ -165,19 +261,8 @@
                 </div>
                 <div class="card-content">
                     <h3>Divulgacao Cientifica</h3>
-                    <p>Ministrou palestras e conferencias, compartilhando seus conhecimentos
-                    e descobertas com a comunidade medica e cientifica brasileira e internacional.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">
-                    <img src="assets/images/cautela.jpg" alt="Instituto de Pesquisas">
-                </div>
-                <div class="card-content">
-                    <h3>Instituto de Pesquisas Cientificas</h3>
-                    <p>Em 1963, fundou o Instituto de Pesquisas Cientificas Sao Paulo S/A,
-                    assumindo a funcao de Diretor-Presidente e liderando pesquisas medicas avancadas.</p>
+                    <p>Ministrou palestras e conferencias, compartilhando suas descobertas
+                    com a comunidade medica brasileira e internacional.</p>
                 </div>
             </div>
         </div>
@@ -196,7 +281,7 @@
 
     <!-- V. Brehmer -->
     <section id="brehmer">
-        <h2 class="section-title">Dr. V. Brehmer e a Pesquisa sobre Cancer</h2>
+        <h2 class="section-title">Dr. V. Brehmer e Bad Kreuznach</h2>
 
         <div class="about-grid">
             <div class="about-image">
@@ -205,29 +290,32 @@
             <div class="about-text">
                 <h3>O Mestre Alemao</h3>
                 <p>
-                    Dr. Estevan foi discipulo do renomado medico alemao Dr. V. Brehmer,
-                    com quem estudou em Bad Kreuznach, na Alemanha. Juntos, desenvolveram
-                    pesquisas pioneiras sobre o cancer como molestia parasitaria.
+                    Em maio de 1949, Dr. Estevan viajou a Bad Kreuznach, Alemanha, para estudar
+                    com o renomado Dr. V. Brehmer. Sobre esta experiencia, escreveu:
                 </p>
                 <p>
-                    Sobre esta colaboracao, Dr. Estevan escreveu: "A desgraca de V. Brehmer
-                    e em parte a nossa tambem foi de se falar sobre um assunto muito anos
-                    antes do tempo necessario para a evolucao intelectual dos nossos mestres
-                    em Cancerologia e outras ciencias aplicadas."
+                    "Em Maio de 1949 chegamos a Bad Kreuznach, Alemanha, para la fazermos um estagio
+                    para nos inteirar de tudo quanto nos fosse possivel sobre o trabalho de von Brehmer;
+                    e, o que nos foi dado observar, nos convenceu plenamente que estavamos deante de
+                    uma verdade que a 'Ciencia' oficial combatia sem procurar estuda-la, verifica-la."
                 </p>
                 <p>
-                    "Tivemos a fatal infelicidade de falarmos - aprendido de V. Brehmer -
-                    sobre o cancer como molestia parasitaria numa epoca que a teoria
-                    embrionaria de Conheim estava no apogeu ainda... Mas a verdade nao se sufoca."
+                    "Tivemos a fatal infelicidade de falarmos - aprendido de V. Brehmer - sobre o
+                    cancer como molestia parasitaria numa epoca que a teoria embrionaria de Conheim
+                    estava no apogeu ainda... Mas a verdade nao se sufoca."
                 </p>
             </div>
         </div>
 
         <!-- Fotos Bad Kreuznach -->
-        <h3 style="text-align: center; margin-top: 3rem; color: var(--primary-color);">Viagem a Bad Kreuznach, Alemanha</h3>
+        <h3 style="text-align: center; margin-top: 3rem; color: var(--primary-color);">Viagem a Bad Kreuznach, Alemanha - 1949</h3>
         <div class="gallery-grid" style="margin-top: 2rem;">
             <div class="gallery-item" onclick="openLightbox(this)">
-                <img src="assets/images/24_FFamigos.jpg" alt="Com colegas na Alemanha">
+                <img src="assets/images/21_ceia.jpg" alt="Ceia com Dr. Brehmer">
+                <div class="gallery-caption">Ceia com Dr. V. Brehmer e equipe</div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/24_FFamigos.jpg" alt="Com colegas">
                 <div class="gallery-caption">Com colegas em Bad Kreuznach</div>
             </div>
             <div class="gallery-item" onclick="openLightbox(this)">
@@ -242,6 +330,10 @@
                 <img src="assets/images/33_embarque.jpg" alt="Embarque">
                 <div class="gallery-caption">Embarque para a Alemanha</div>
             </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/23_BadKreuznach.jpg" alt="Bad Kreuznach">
+                <div class="gallery-caption">Na cidade de Bad Kreuznach</div>
+            </div>
         </div>
     </section>
 
@@ -251,16 +343,17 @@
 
         <div class="about-grid">
             <div class="about-text">
-                <h3>Medicina Integral</h3>
+                <h3>Medicina com Consciencia</h3>
                 <p>
                     Dr. Estevan Jose de Almeida Prado foi um dos pioneiros da homeopatia no Brasil,
                     seguindo os principios estabelecidos por Samuel Hahnemann, o fundador da
                     medicina homeopatica.
                 </p>
                 <p>
-                    Sua abordagem terapeutica era caracterizada pela visao integral do paciente,
-                    considerando nao apenas os sintomas fisicos, mas tambem os aspectos emocionais
-                    e mentais de cada individuo.
+                    Sobre sua pratica medica, escreveu: "Contra esse modo de agir e que me rebelava
+                    pois felizmente gracas a Deus eu sinto que na maioria de meus atos na vida,
+                    agir com criterio proprio, pondo tudo na balanca do meu raciocinio e, acertada
+                    ou erradamente, agia de acordo com meu raciocinio, criterio e consciencia."
                 </p>
                 <p>
                     "Assim e justo concordar que como pertenco ao genero humano, posso e devo errar
@@ -273,11 +366,26 @@
                 <img src="assets/images/Samuel_hahnemann_mirador.jpg" alt="Samuel Hahnemann">
             </div>
         </div>
+
+        <div class="gallery-grid" style="margin-top: 3rem;">
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/CP_pag3.jpg" alt="Publicacao">
+                <div class="gallery-caption">Publicacao sobre homeopatia</div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/Japones.jpg" alt="Conexao Japonesa">
+                <div class="gallery-caption">Conexao com medicina oriental</div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/receita.jpg" alt="Receita">
+                <div class="gallery-caption">Receituario medico</div>
+            </div>
+        </div>
     </section>
 
     <!-- Testemunhos -->
     <section id="testemunhos">
-        <h2 class="section-title">Testemunhos e Cartas</h2>
+        <h2 class="section-title">Testemunhos e Cartas de Pacientes</h2>
 
         <div class="cards-grid">
             <div class="card">
@@ -285,11 +393,12 @@
                     <img src="assets/images/carta_benedito.jpg" alt="Carta de Benedito">
                 </div>
                 <div class="card-content">
-                    <h3>Carta de Benedito A. Pereira</h3>
+                    <h3>Benedito A. Pereira</h3>
                     <p><em>Aguas da Prata, 25 de julho de 1971</em></p>
                     <p>"Prezado Sr. Estevan... Como o Sr. foi muito bom para comigo,
                     nao tendo cobrado varias consultas, nao queria deixar de agradecer-lhe...
-                    Quero agradecer-lhe porque estou completamente recuperado..."</p>
+                    Quero agradecer-lhe porque estou completamente recuperado, tendo ido muito
+                    bem nos estudos, sendo um dos primeiros da classe."</p>
                 </div>
             </div>
 
@@ -298,11 +407,24 @@
                     <img src="assets/images/carta_celina.jpg" alt="Carta de Celina">
                 </div>
                 <div class="card-content">
-                    <h3>Carta de Celina Fonseca Martins</h3>
+                    <h3>Celina Fonseca Martins</h3>
                     <p><em>Rio Claro, 25 de agosto de 1951</em></p>
                     <p>"Ilmo. Snr. Dr. Estevan Jose de Almeida Prado... Gracas a Deus,
-                    tenho passado otimamente bem... Nao sei como render gracas a Deus,
-                    que em tao boa hora me encaminhou ao Snr., restituindo-me a saude ameacada."</p>
+                    tenho passado otimamente bem, nem me lembro que tenho seio ou que
+                    existiu algo que me preocupou bastante... Nao sei como render gracas
+                    a Deus, que em tao boa hora me encaminhou ao Snr., restituindo-me a
+                    saude ameacada."</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/93_josevasconcelos.jpg" alt="Jose Vasconcelos">
+                </div>
+                <div class="card-content">
+                    <h3>Jose Vasconcelos</h3>
+                    <p>Testemunho de gratidao e reconhecimento pela dedicacao e competencia
+                    do Dr. Estevan ao longo de sua carreira medica.</p>
                 </div>
             </div>
 
@@ -313,7 +435,7 @@
                 <div class="card-content">
                     <h3>Fernando Bueno</h3>
                     <p>Um dos muitos pacientes e amigos que testemunharam a dedicacao
-                    e competencia do Dr. Estevan ao longo de sua carreira medica.</p>
+                    e competencia do Dr. Estevan ao longo de sua carreira.</p>
                 </div>
             </div>
 
@@ -361,16 +483,6 @@
             </div>
 
             <div class="gallery-item" onclick="openLightbox(this)">
-                <img src="assets/images/91_rioclaro.jpg" alt="Rio Claro">
-                <div class="gallery-caption">Rio Claro, cidade natal</div>
-            </div>
-
-            <div class="gallery-item" onclick="openLightbox(this)">
-                <img src="assets/images/livreto_senado_capa.jpg" alt="Senado">
-                <div class="gallery-caption">Senado de Sao Paulo - 1891-1930</div>
-            </div>
-
-            <div class="gallery-item" onclick="openLightbox(this)">
                 <img src="assets/images/25_palestra.jpg" alt="Palestra">
                 <div class="gallery-caption">Ministrando palestra</div>
             </div>
@@ -378,6 +490,16 @@
             <div class="gallery-item" onclick="openLightbox(this)">
                 <img src="assets/images/84_casal_asbahr.jpg" alt="Casal Asbahr">
                 <div class="gallery-caption">Com a familia Asbahr</div>
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/81_asbahr_form.jpg" alt="Formatura">
+                <div class="gallery-caption">Formatura</div>
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/35_ouvinte.jpg" alt="Ouvinte">
+                <div class="gallery-caption">Em evento</div>
             </div>
         </div>
     </section>
@@ -416,6 +538,21 @@
                 <img src="assets/images/77_Leticia.jpg" alt="Leticia">
                 <div class="gallery-caption">Leticia</div>
             </div>
+
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/70_negreiros.jpg" alt="Negreiros">
+                <div class="gallery-caption">Negreiros</div>
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/73_zezico.jpg" alt="Zezico">
+                <div class="gallery-caption">Zezico</div>
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="assets/images/74_zezico.jpg" alt="Zezico">
+                <div class="gallery-caption">Zezico</div>
+            </div>
         </div>
     </section>
 
@@ -440,7 +577,17 @@
                     <h3>Instituto de Pesquisas Cientificas</h3>
                     <p>Em 21 de abril de 1963, fundou e assumiu a Diretoria-Presidencia
                     do Instituto de Pesquisas Cientificas Sao Paulo S/A, com sede em
-                    Sao Paulo e capital de 600.000 cruzeiros.</p>
+                    Sao Paulo e capital de 600.000 cruzeiros, ao lado do Dr. Carlos
+                    Augusto Setubal como Diretor-Secretario.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Vacina BHP</h3>
+                    <p>Desenvolveu junto com Dr. V. Brehmer (Alemanha) e Hirachi (Japao)
+                    a Vacina BHP contra o cancer, contribuicao pioneira para a medicina
+                    brasileira e mundial.</p>
                 </div>
             </div>
 
@@ -448,11 +595,19 @@
                 <div class="card-content">
                     <h3>Livro Comemorativo - 2002</h3>
                     <p>Em 2002, foi publicado um livro em sua homenagem, reunindo fotografias,
-                    documentos e testemunhos de familiares, colegas e amigos que registram
-                    sua trajetoria e legado para a medicina brasileira.</p>
+                    documentos, manuscritos e testemunhos de familiares, colegas e pacientes
+                    que registram sua trajetoria e legado para a medicina brasileira.</p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Citacao Final -->
+    <section class="quote-section">
+        <blockquote class="quote">
+            "Mas a verdade nao se sufoca."
+        </blockquote>
+        <p class="quote-author">- Dr. Estevan Jose de Almeida Prado</p>
     </section>
 
     <!-- Footer -->
@@ -460,6 +615,9 @@
         <p>Memorial Dr. Estevan Jose de Almeida Prado</p>
         <p>Uma homenagem da familia Almeida Prado</p>
         <p style="margin-top: 1rem; font-size: 0.9rem;">
+            Baseado no livro comemorativo publicado em 2002
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">
             &copy; 2025 - Todos os direitos reservados
         </p>
     </footer>
